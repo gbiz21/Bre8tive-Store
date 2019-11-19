@@ -1,22 +1,125 @@
-.App {
-  text-align: center;
+:root {
+  --mainBlack: #1a1a1a;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
 }
 
-.App-logo {
-  height: 40vmin;
+body {
+  font-family: "Montserrat", sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.row {
+  margin-bottom: 50px;
 }
 
-.App-link {
-  color: #09d3ac;
+.text-title {
+  font-family: "Merriweather", serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
 }
+
+.text-black {
+  color: var(--mainBlack);
+}
+
+.text-bright {
+  color: var(--lightBlue);
+}
+
+img {
+  padding: 0;
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+/* Card cart-btn icon section */
+
+/* .cart-btn,
+.cart-btn:active,
+.cart-btn:active:focus,
+.cart-btn:visited,
+.cart-btn:focus {
+  border: none;
+  color: #232323;
+  background-color: none;
+  outline: none;
+} */
+
+/* .cart-btn:hover {
+  box-shadow: #232528;
+  background: ;
+} */
+
+/* .btn-group-lg,
+.btn-lg {
+  padding: none !important;
+  margin: auto !important;
+} */
+
+.navbar-brand {
+  padding-left: 50px;
+  width: 250px;
+  height: auto;
+}
+
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 1.5rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+}
+
+.btn-black:hover {
+  background: #e6e6e6;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1rem;
+  color: red;
+}
+
+/*  
+.btn3d {
+  transition: all 0.05s linear;
+  /* position: relative; 
+  outline: none;
+  -moz-outline-style: none;
+  border: 0px;
+  margin-right: 5px;
+  margin-top: 15px;
+}
+.btn3d:focus {
+  outline: none;
+  -moz-outline-style: none;
+}
+.btn3d:active {
+  top: 2px;
+}
+
+.cart-btn {
+  box-shadow: 0 0 0 1px #ebebeb inset,
+    0 0 0 1px rgba(255, 255, 255, 0.975) inset, 0 1px 0 0 #adadad,
+    0 1px 0 1px rgba(0, 0, 0, 0), 0 1px 1px 1px rgba(0, 0, 0, 0);
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.cart-btn:hover {
+  background-color: #f2f2f2;
+}
+*/
+
+/* images */
+
+/* .img-fluid {
+  width: max-content;
+  height: max-content;
+} */
